@@ -35,7 +35,7 @@ exo
 f2fs-tools
 fakeroot
 fatresize
-firefox-esr-bin
+firefox-esr
 fsarchiver
 garcon
 gcc
@@ -65,7 +65,6 @@ libfido2
 librewolf
 libusb-compat
 lightdm
-lightdm-gtk-backgroundmatch
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 linux
@@ -154,8 +153,9 @@ xarchiver
 xf86-video-vesa
 xfce4-appfinder
 xfce4-dev-tools
-xfce4-docklike-plugin-ng-git
+xfce4-docklike-plugin
 xfce4-panel
+xfce4-panel-profiles
 xfce4-power-manager
 xfce4-pulseaudio-plugin
 xfce4-session
