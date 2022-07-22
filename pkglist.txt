@@ -2,6 +2,7 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+accountsservice
 autoconf
 automake
 b43-fwcutter
@@ -85,6 +86,7 @@ mkinitcpio
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 modemmanager
+mousepad
 mtools
 nano
 nbd
@@ -167,6 +169,7 @@ xfsprogs
 xfwm4
 xfwm4-themes
 xl2tpd
+xdg-user-dirs
 xorg-bdftopcf
 xorg-docs
 xorg-font-util
