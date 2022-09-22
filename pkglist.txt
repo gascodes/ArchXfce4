@@ -53,15 +53,12 @@ hdparm
 hyperv
 intel-ucode
 inter-font
-ipw2100-fw
-ipw2200-fw
 irssi
 iw
 iwd
 jfsutils
 kitty-terminfo
 less
-lftp
 libfido2
 librewolf
 libusb-compat
