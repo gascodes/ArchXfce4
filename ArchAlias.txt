@@ -1,0 +1,19 @@
+#Pacman for software managment
+alias search='sudo pacman -Qs'
+alias remove='sudo pacman -R'
+alias install='sudo pacman -S'
+alias linstall='sudo pacman -U '
+alias update='sudo pacman -Syyu'
+alias clrcache='sudo pacman -Scc'
+alias updb='paru && sudo pacman -Sy'
+alias orphans='sudo pacman -Qdt && sudo pacman -Rns $(pacman -Qtdq)'
+
+
+
+alias cclean="free -m && sync && sudo sysctl vm.drop_caches=3 && free -m"
+alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+pacman -Qtdq | pacman -Rns -
+
+sudo pacman -Qqe > pkglist.txt
+sudo pacman -S --needed - < pkglist.txt
