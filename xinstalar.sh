@@ -1,6 +1,6 @@
 #!/bin/bash
 # INSTALAR PAQUETES NECESARIO PARA ARCH + XFCE4
-
+setfont ter-v22n
 funcion_instalar() {
 	if pacman -Qi $1 &> /dev/null; then
 	  else sudo pacman -S --noconfirm --needed $1 
