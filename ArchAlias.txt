@@ -22,4 +22,6 @@ alias _='sudo'
 # Installing my packages
 # sudo pacman -Qqe > pkglist.txt
 # sudo pacman -S --needed - < pkglist.txt
+
+# Restore original pkgs
 # sudo pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort pkglist.txt))
