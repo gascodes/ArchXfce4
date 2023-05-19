@@ -19,8 +19,7 @@ alias orf='sudo pacman -Qdt && sudo pacman -Rns $(pacman -Qtdq)'
 alias x="exit"
 alias _='sudo'
 
-pacman -Qtdq | pacman -Rns -
-
 # Installing my packages
-sudo pacman -Qqe > pkglist.txt
-sudo pacman -S --needed - < pkglist.txt
+# sudo pacman -Qqe > pkglist.txt
+# sudo pacman -S --needed - < pkglist.txt
+# sudo pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort pkglist.txt))
