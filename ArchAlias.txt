@@ -6,14 +6,21 @@ alias linstall='sudo pacman -U '
 alias update='sudo pacman -Syyu'
 alias clrcache='sudo pacman -Scc'
 alias updb='paru && sudo pacman -Sy'
-alias orphans='sudo pacman -Qdt && sudo pacman -Rns $(pacman -Qtdq)'
 
-
-
-alias cclean="free -m && sync && sudo sysctl vm.drop_caches=3 && free -m"
 alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias la='ls -A'
+
+# Cleaning RAM
+alias ccl="free -m && sync && sudo sysctl vm.drop_caches=3 && free -m && sudo find /tmp -type f -atime +10 -delete"
+alias cch="sudo du -sh ~/.cache/ && rm -rf ~/.cache/* && sudo du -sh ~/.cache/"
+alias orf='sudo pacman -Qdt && sudo pacman -Rns $(pacman -Qtdq)'
+
+# Shorts
+alias x="exit"
+alias _='sudo'
 
 pacman -Qtdq | pacman -Rns -
 
+# Installing my packages
 sudo pacman -Qqe > pkglist.txt
 sudo pacman -S --needed - < pkglist.txt
