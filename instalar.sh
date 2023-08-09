@@ -1,3 +1,4 @@
+setfont ter-v20n
 sudo pacman -Syy
 sudo pacman -S --needed -< pkglist.txt
 sudo systemctl enable lightdm.service
