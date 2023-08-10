@@ -37,7 +37,10 @@ exo
 f2fs-tools
 fakeroot
 fatresize
-firefox-esr
+ttf-fira-mono
+ttf-fira-sans
+ttf-firacode-nerd
+firefox
 fsarchiver
 garcon
 gcc
@@ -222,3 +225,5 @@ zsh
 zsh-autosuggestions
 zsh-lovers
 zsh-syntax-highlighting
+catppuccin-gtk-theme-mocha
+catppuccin-mocha-dark-cursors 
